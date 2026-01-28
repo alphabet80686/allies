@@ -9,9 +9,11 @@ body {
   text-align: left;
 }
 
+/* The MAIN class is to set the left and right margins. */
+
 .main {
   display: block;
-  max-width: 1280px;
+  max-width: 1152px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -23,16 +25,18 @@ h1 {
   text-align: center;
   font-weight: bold;
   font-style: italic;
-  border-color: #000000;
-  border-style: double;
+  border-color: #ffffff66;
+  border-filter: blur(20px);
+  border-style: solid;
   border-width: 4px;
   border-radius: 16px;
-  background-color: #ffffffbb;
+  background-color: #ffffff66;
   backdrop-filter: blur(10px);
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  letter-spacing: 2px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
   color: #ffffff;
   margin-bottom: 0px;
-  letter-spacing: 1px;
   font-size: 50px;
   padding: 6px;
 }
@@ -42,216 +46,39 @@ h2 {
   font-weight: bold;
   font-style: italic;
   color: white;
-  border-color: #000000;
-  border-style: double;
+  border-color: #ffffff66;
+  border-filter: blur(20px);
+  border-style: solid;
   border-width: 4px;
   border-radius: 16px;
-  background-color: #ffffffbb;
-  backdrop-filter: blur(5px);
+  background-color: #ffffff66;
+  backdrop-filter: blur(10px);
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  letter-spacing: 1px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
   margin-bottom: 0px;
   font-size: 36px;
-  padding:6px;
-}
-
-h3 {
-  font-family: arial;
-  font-weight: bold;
-  margin-bottom: 0px;
-  font-size: 28px;
-}
-
-h4 {
-  font-family: arial;
-  font-weight: bold;
-  font-size: 22px;
-}
-
-h6 {
-  font-style: italic;
-  font-size: 14px;
-}
-
-p {
-  font-size: 22px;
-}
-
-ol {
-  font-size: 22px;
-}
-
-ul {
-  font-size: 22px;
-}
-
-img {
-  margin-right: 35px;
-  width: 400px;
-  height: 300px;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 10px;
-  margin-top: 20px;
-  float: left;
-  border-color: #000000;
-}
-
-.special {
-  color: #000000;
-  font-style: normal;
-  font-size: 20px;
-  border-color: #000000;
-  border-style: double;
-  border-width: 4px;
-  border-radius: 16px;
-  background-color: #ffffffbb;
-  backdrop-filter: blur(10px);
-  margin-top: 6px;
-  padding-left: 40px;
-  padding-right: 40px;
-  text-align: justify;
-}
-
-#special {
-  padding: 20px 40px;
-  font-size: 22px;
-}
-
-#specialb {
-  display: block;
-}
-
-.navbar {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  font-size: 22px;
-  padding: 4px;
-}
-
-a {
-  text-decoration: none;
-  color: #4488ff;
-  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
-}
-
-.navbar > a {
-  border-color: #000000;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 8px;
-  backdrop-filter: blur(10px);
-  height: 26px;
-  color: #ffffff;
-  padding: 2px 4px;
-}
-
-.nav {
-  background-color: #4488ffaa;
-  border-color: #000000;
-  border-style: double;
-  border-width: 4px;
-  border-radius: 16px;
-  backdrop-filter: blur(10px);
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-  margin: 2px;
-}
-
-.samepage {
-  background-color: #44ff88aa;
-  backdrop-filter: blur(10px);
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-  margin: 2px;
-}
-
-#button {
-  border-color: #000000;
-  border-style: double;
-  border-width: 4px;
-  border-radius: 8px;
-  background-color: #ffffffbb;
-  backdrop-filter: blur(10px);
-  padding: 2px 4px;
-}
-
-#button a {
-  text-decoration: underline;
-  color: #ffffff;
-}
-
-.hidden {
-  display: none;
-}
-
-@media (prefers-color-scheme: dark) {
-
-body {
-  background-image: url(dark.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  font-family: arial;
-  display: block;
-  margin: 40px;
-  text-align: left;
-}
-
-.main {
-  display: block;
-  max-width: 1280px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-h1 {
-  font-family: arial;
-  text-align: center;
-  font-weight: bold;
-  font-style: italic;
-  border-color: #ffffff;
-  border-style: double;
-  border-width: 4px;
-  border-radius: 16px;
-  background-color: #000000bb;
-  backdrop-filter: blur(10px);
-  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
-  color: #000000;
-  margin-bottom: 0px;
-  letter-spacing: 1px;
-  font-size: 50px;
   padding: 6px;
 }
 
-h2 {
-  font-family: arial;
-  font-weight: bold;
-  font-style: italic;
-  border-color: #ffffff;
-  border-style: double;
-  border-width: 4px;
-  border-radius: 16px;
-  background-color: #000000bb;
-  backdrop-filter: blur(10px);
-  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
-  color: #000000;
-  margin-bottom: 0px;
-  font-size: 36px;
-  padding:6px;
-}
-
 h3 {
   font-family: arial;
   font-weight: bold;
   margin-bottom: 0px;
   font-size: 28px;
+  color: #ffffff;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  letter-spacing: 1px;
 }
 
 h4 {
   font-family: arial;
   font-weight: bold;
   font-size: 22px;
+  color: #ffffff;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  margin-bottom: 0px;
+  letter-spacing: 1px;
 }
 
 h6 {
@@ -272,31 +99,34 @@ ul {
 }
 
 img {
-  margin-right: 35px;
+  margin: 36px;
   width: 400px;
-  height: 300px;
   border-style: solid;
-  border-width: 2px;
+  border-width: 4px;
   border-radius: 10px;
   margin-top: 20px;
   float: left;
-  border-color: #ffffff;
 }
 
 .special {
-  color: #ffffff;
+  color: #000000;
   font-style: normal;
   font-size: 20px;
-  border-color: #ffffff;
-  border-style: double;
+  border-color: #ffffff66;
+  border-filter: blur(20px);
+  border-style: solid;
   border-width: 4px;
   border-radius: 16px;
-  background-color: #000000bb;
+  background-color: #ffffff88;
   backdrop-filter: blur(10px);
   margin-top: 6px;
   padding-left: 40px;
   padding-right: 40px;
   text-align: justify;
+  max-height: 32768px;
+  overflow: auto;
+  padding-bottom: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 #special {
@@ -317,56 +147,137 @@ img {
 }
 
 a {
+  color: #0022aa;
   text-decoration: none;
-  color: #88bbff;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .navbar > a {
-  border-color: #000000;
+  border-color: #ffffff88;
+  border-filter: blur(20px);
   border-style: solid;
   border-width: 2px;
   border-radius: 8px;
   backdrop-filter: blur(10px);
   height: 26px;
-  color: #000000;
+  color: #ffffff;
   padding: 2px 4px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 .nav {
-  background-color: #88bbffaa;
-  border-color: #000000;
-  border-style: double;
-  border-width: 4px;
-  border-radius: 16px;
+  background-color: #4488ff66;
+  border-color: #ffffff66;
+  border-filter: blur(20px);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
   backdrop-filter: blur(10px);
-  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
   margin: 2px;
+  text-decoration: none;
+  transition: 0.25s ease-in-out;
+}
+
+.nav:hover {
+  transform: scale(1.05);
+  background-color: #22448866;
+  border-color: #22448866;
+  text-decoration: none;
 }
 
 .samepage {
-  background-color: #88ffbbaa;
+  background-color: #44ff8866;
   backdrop-filter: blur(10px);
-  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
   margin: 2px;
+  text-decoration: none;
+  transition: 0.25s ease-in-out;
 }
 
-#button {
-  border-color: #000000;
-  border-style: double;
-  border-width: 4px;
-  border-radius: 8px;
-  background-color: #ffffffbb;
-  backdrop-filter: blur(10px);
-  padding: 2px 4px;
-}
-
-#button a {
-  text-decoration: underline;
-  color: #ffffff;
+.samepage:hover {
+  transform: scale(1.05);
+  background-color: #22884466;
+  border-color: #22884466;
+  text-decoration: none;
 }
 
 .hidden {
   display: none;
 }
+
+/* Welcome to the Realm of Darkness! */
+/* In other words, this creates a dark theme. Only the color settings are changed here so we don't have to duplicate all changes to both. */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-image: url(dark.jpg);
+  }
+
+  h1 {
+    border-color: #22222266;
+    background-color: #22222266;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    color: #222222;
+    box-shadow: 0 0 10px rgba(255,255,255,0.2);
+  }
+
+  h2 {
+    border-color: #22222266;
+    background-color: #22222266;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    color: #222222;
+    box-shadow: 0 0 10px rgba(255,255,255,0.2);
+  }
+
+  h3 {
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    color: #222222;
+  }
+
+  h4 {
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    color: #222222;
+  }
+
+  .special {
+    color: #ffffff;
+    border-color: #22222266;
+    background-color: #22222288;
+    box-shadow: 0 0 10px rgba(255,255,255,0.2);
+  }
+
+  a {
+    color: #88bbff;
+  }
+  
+  .navbar > a {
+    border-color: #11224488;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(255,255,255,0.2);
+  }
+
+  .nav {
+    background-color: #22448866;
+    border-color: #ffffff66;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  }
+
+  .nav:hover {
+    background-color: #4488ff66;
+    border-color: #ffffff66;
+  }
+
+  .samepage {
+    background-color: #22884466;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  }
+
+  .samepage:hover {
+    background-color: #44ff8866;
+    border-color: #ffffff66;
+  }
 }
