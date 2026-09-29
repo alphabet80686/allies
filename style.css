@@ -1,6 +1,5 @@
 body {
-  background-image: url(light.jpg);
-  background-size: cover;
+  background-image: linear-gradient(#ffcc88, #ffee88);
   background-attachment: fixed;
   background-repeat: no-repeat;
   font-family: arial;
@@ -8,8 +7,6 @@ body {
   margin: 40px;
   text-align: left;
 }
-
-/* The MAIN class is to set the left and right margins. */
 
 .main {
   display: block;
@@ -25,18 +22,13 @@ h1 {
   text-align: center;
   font-weight: bold;
   font-style: italic;
-  border-color: #ffffff66;
-  border-filter: blur(20px);
-  border-style: solid;
-  border-width: 4px;
-  border-radius: 16px;
-  background-color: #ffffff66;
-  backdrop-filter: blur(10px);
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-  letter-spacing: 2px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  color: #ffffff;
+  border-color: #ff8800;
+  border-style: outset;
+  background-color: #ffeeaa;
+  color: #ff8800;
   margin-bottom: 0px;
+  text-shadow: 3px 3px black;
+  letter-spacing: 1px;
   font-size: 50px;
   padding: 6px;
 }
@@ -46,19 +38,11 @@ h2 {
   font-weight: bold;
   font-style: italic;
   color: white;
-  border-color: #ffffff66;
-  border-filter: blur(20px);
-  border-style: solid;
-  border-width: 4px;
-  border-radius: 16px;
-  background-color: #ffffff66;
-  backdrop-filter: blur(10px);
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-  letter-spacing: 1px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-style: outset;
+  border-color: #ff8800;
+  background-color: #ff8800;
   margin-bottom: 0px;
   font-size: 36px;
-  padding: 6px;
 }
 
 h3 {
@@ -66,19 +50,12 @@ h3 {
   font-weight: bold;
   margin-bottom: 0px;
   font-size: 28px;
-  color: #ffffff;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-  letter-spacing: 1px;
 }
 
 h4 {
   font-family: arial;
   font-weight: bold;
   font-size: 22px;
-  color: #ffffff;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-  margin-bottom: 0px;
-  letter-spacing: 1px;
 }
 
 h6 {
@@ -99,34 +76,28 @@ ul {
 }
 
 img {
-  margin: 36px;
+  margin-right: 35px;
   width: 400px;
+  height: 300px;
   border-style: solid;
-  border-width: 4px;
+  border-width: 2px;
   border-radius: 10px;
   margin-top: 20px;
   float: left;
+  border-color: #ff8800;
 }
 
 .special {
   color: #000000;
   font-style: normal;
   font-size: 20px;
-  border-color: #ffffff66;
-  border-filter: blur(20px);
-  border-style: solid;
-  border-width: 4px;
-  border-radius: 16px;
-  background-color: #ffffff88;
-  backdrop-filter: blur(10px);
+  border-style: outset;
+  border-color: #ffeeaa;
+  background-color: #ffeeaa;
   margin-top: 6px;
   padding-left: 40px;
   padding-right: 40px;
   text-align: justify;
-  max-height: 32768px;
-  overflow: auto;
-  padding-bottom: 40px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 #special {
@@ -147,137 +118,69 @@ img {
 }
 
 a {
-  color: #0022aa;
   text-decoration: none;
+  color: #0000ff;
 }
 
-a:hover {
+#samepage {
+  color: #ffffff;
   text-decoration: underline;
 }
 
 .navbar > a {
-  border-color: #ffffff88;
-  border-filter: blur(20px);
   border-style: solid;
+  border-color: #ffffff;
   border-width: 2px;
   border-radius: 8px;
-  backdrop-filter: blur(10px);
   height: 26px;
   color: #ffffff;
   padding: 2px 4px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 .nav {
-  background-color: #4488ff66;
-  border-color: #ffffff66;
-  border-filter: blur(20px);
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 8px;
-  backdrop-filter: blur(10px);
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  background-color: #0000ff;
   margin: 2px;
-  text-decoration: none;
-  transition: 0.25s ease-in-out;
-}
-
-.nav:hover {
-  transform: scale(1.05);
-  background-color: #22448866;
-  border-color: #22448866;
-  text-decoration: none;
 }
 
 .samepage {
-  background-color: #44ff8866;
-  backdrop-filter: blur(10px);
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  background-color: #ff0000;
   margin: 2px;
-  text-decoration: none;
-  transition: 0.25s ease-in-out;
 }
 
-.samepage:hover {
-  transform: scale(1.05);
-  background-color: #22884466;
-  border-color: #22884466;
-  text-decoration: none;
+#button {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 2px 4px;
+}
+
+#button a {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.why {
+  max-width: 640px;
+  max-height: 480px;
+  padding: 10px;
+  overflow-y: scroll;
+  margin: 10px;
+  border-style: outset;
+  border-color: #ff8800;
+  background-color: #ff8800;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.why > h2 {
+  border-color: #ffee88;
+  background-color: #ffee88;
+  color: #000000;
 }
 
 .hidden {
   display: none;
-}
-
-/* Welcome to the Realm of Darkness! */
-/* In other words, this creates a dark theme. Only the color settings are changed here so we don't have to duplicate all changes to both. */
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-image: url(dark.jpg);
-  }
-
-  h1 {
-    border-color: #22222266;
-    background-color: #22222266;
-    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
-    color: #222222;
-    box-shadow: 0 0 10px rgba(255,255,255,0.2);
-  }
-
-  h2 {
-    border-color: #22222266;
-    background-color: #22222266;
-    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
-    color: #222222;
-    box-shadow: 0 0 10px rgba(255,255,255,0.2);
-  }
-
-  h3 {
-    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
-    color: #222222;
-  }
-
-  h4 {
-    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
-    color: #222222;
-  }
-
-  .special {
-    color: #ffffff;
-    border-color: #22222266;
-    background-color: #22222288;
-    box-shadow: 0 0 10px rgba(255,255,255,0.2);
-  }
-
-  a {
-    color: #88bbff;
-  }
-  
-  .navbar > a {
-    border-color: #11224488;
-    color: #ffffff;
-    box-shadow: 0 0 10px rgba(255,255,255,0.2);
-  }
-
-  .nav {
-    background-color: #22448866;
-    border-color: #ffffff66;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-  }
-
-  .nav:hover {
-    background-color: #4488ff66;
-    border-color: #ffffff66;
-  }
-
-  .samepage {
-    background-color: #22884466;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-  }
-
-  .samepage:hover {
-    background-color: #44ff8866;
-    border-color: #ffffff66;
-  }
 }
