@@ -86,6 +86,10 @@ img {
   float: left;
 }
 
+pre {
+  overflow: auto;
+}
+
 .special {
   color: #000000;
   font-style: normal;
