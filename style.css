@@ -87,7 +87,6 @@ img {
 }
 
 pre {
-  line-clamp: 25;
   overflow: auto;
 }
 
