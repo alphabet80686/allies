@@ -165,26 +165,6 @@ a {
   color: #ffffff;
 }
 
-.why {
-  max-width: 640px;
-  max-height: 480px;
-  padding: 10px;
-  overflow-y: scroll;
-  margin: 10px;
-  border-style: outset;
-  border-color: #ff8800;
-  background-color: #ff8800;
-  color: #ffffff;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.why > h2 {
-  border-color: #ffee88;
-  background-color: #ffee88;
-  color: #000000;
-}
-
 .hidden {
   display: none;
 }
