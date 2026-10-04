@@ -88,6 +88,9 @@ img {
 
 pre {
   overflow: auto;
+  padding: 8px;
+  background-color: #ff8800;
+  color: #ffffff;
 }
 
 .special {
