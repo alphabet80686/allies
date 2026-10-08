@@ -70,6 +70,11 @@ h4 {
   font-size: 22px;
 }
 
+h5 {
+  font-family: arial;
+  font-style: italic;
+  font-size: 18px;
+
 h6 {
   font-style: italic;
   font-size: 14px;
@@ -183,3 +188,30 @@ a {
   margin: 40px;
   text-align: left;
 }
+
+/* LOW RESOLUTION MODE */
+
+@media screen and (max-width: 1010px) {
+  h1 {
+    font-size: 32px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  h4, p, ol, ul, pre, .special, .navbar, #special {
+    font-size: 16px;
+  }
+  
+  h5 {
+    font-size: 13px;
+  }
+  
+  h6 {
+    font-size: 10px;
+  }
