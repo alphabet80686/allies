@@ -1,3 +1,15 @@
+html {
+  border-right: 2px solid #000000;
+}
+
+html, * {
+  scrollbar-color: #ffcc88 #ff8800;
+}
+
+html, body {
+  overscroll-behavior-y: none;
+}
+
 body {
   background-image: linear-gradient(#ffcc88, #ffee88);
   background-attachment: fixed;
@@ -6,7 +18,6 @@ body {
   display: block;
   margin: 40px;
   text-align: left;
-  scrollbar-color: #ffcc88 #ff8800;
 }
 
 .main {
@@ -16,6 +27,7 @@ body {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+  scrollbar-color: #ffcc88 #ff8800;
 }
 
 h1 {
@@ -23,8 +35,7 @@ h1 {
   text-align: center;
   font-weight: bold;
   font-style: italic;
-  border-color: #ff8800;
-  border-style: outset;
+  border: 3px outset #ff8800;
   background-color: #ffeeaa;
   color: #ff8800;
   margin-bottom: 0px;
@@ -39,11 +50,11 @@ h2 {
   font-weight: bold;
   font-style: italic;
   color: white;
-  border-style: outset;
-  border-color: #ff8800;
+  border: 3px outset #ff8800;
   background-color: #ff8800;
   margin-bottom: 0px;
   font-size: 36px;
+  padding: 2px;
 }
 
 h3 {
@@ -79,12 +90,13 @@ ul {
 img {
   margin-right: 35px;
   width: 400px;
-  border-style: solid;
-  border-width: 2px;
+  border: 2px solid #000000;
   border-radius: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
   float: left;
+  background-color: #ff8800;
+  color: #ffffff;
 }
 
 pre {
@@ -95,8 +107,7 @@ pre {
   color: #000000;
   font-style: normal;
   font-size: 20px;
-  border-style: outset;
-  border-color: #ffeeaa;
+  border: 3px outset #ffeeaa;
   background-color: #ffeeaa;
   margin-top: 6px;
   padding-left: 40px;
@@ -132,9 +143,7 @@ a {
 }
 
 .navbar > a {
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 2px;
+  border: 2px solid #ffffff;
   border-radius: 8px;
   height: 26px;
   color: #ffffff;
@@ -152,9 +161,7 @@ a {
 }
 
 #button {
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 2px;
+  border: 2px solid #ffffff;
   border-radius: 8px;
   color: #ffffff;
   padding: 2px 4px;
@@ -167,4 +174,12 @@ a {
 
 .hidden {
   display: none;
+}
+  background-image: linear-gradient(#ffcc88, #ffee88);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: arial;
+  display: block;
+  margin: 40px;
+  text-align: left;
 }
