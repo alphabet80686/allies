@@ -132,6 +132,8 @@ pre {
 
 .navbar {
   text-align: center;
+  position: sticky;
+  top: 20px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 8px;
