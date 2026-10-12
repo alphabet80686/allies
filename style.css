@@ -6,10 +6,6 @@ html, * {
   scrollbar-color: #ffcc88 #ff8800;
 }
 
-html, body {
-  overscroll-behavior-y: none;
-}
-
 body {
   background-image: linear-gradient(#ffcc88, #ffee88);
   background-attachment: fixed;
