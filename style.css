@@ -177,6 +177,14 @@ a {
   color: #ffffff;
 }
 
+.handystory {
+  width: 125%;
+  height: 125%;
+  transform: scale(0.75);
+  transform-origin: 0 0;
+  border: none;
+}
+
 .hidden {
   display: none;
 }
