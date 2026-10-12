@@ -218,6 +218,11 @@ a {
     height: 18px;
   }
 
+  .navbar > a {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
   .potatonoshow {
     display: none;
   }
