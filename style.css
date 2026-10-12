@@ -132,15 +132,17 @@ pre {
 }
 
 .navbar {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 22px;
   padding: 4px;
 }
 
 a {
   text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
   color: #0000ff;
 }
 
