@@ -131,9 +131,10 @@ pre {
 }
 
 .navbar {
-  width: 80%;
+  width: fit-content;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 8px;
   font-size: 22px;
   padding: 4px;
 }
@@ -156,6 +157,11 @@ a {
   height: 26px;
   color: #ffffff;
   padding: 2px 4px;
+}
+
+.navbar > a {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .nav {
