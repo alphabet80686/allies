@@ -182,7 +182,6 @@ a {
   height: 125%;
   transform: scale(0.75);
   transform-origin: 0 0;
-  border: none;
 }
 
 .hidden {
