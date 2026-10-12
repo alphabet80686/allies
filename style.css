@@ -79,7 +79,6 @@ h6 {
 
 p {
   font-size: 22px;
-  margin-bottom: 6px;
 }
 
 ol {
@@ -91,7 +90,7 @@ ul {
 }
 
 li {
-  margin-bottom: 6px;
+  margin-bottom: 12px;
 }
 
 img {
