@@ -212,6 +212,10 @@ a {
     width: 200px;
   }
 
+  pre {
+    font-size: 12px;
+  }
+
   .navbar > a, #button {
     height: 18px;
   }
