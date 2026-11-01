@@ -184,6 +184,8 @@ a {
   transform: scale(0.8);
   transform-origin: 0 0;
   margin-top: 20px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
 }
 
 .hidden {
