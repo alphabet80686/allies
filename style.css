@@ -186,6 +186,11 @@ a {
   margin-top: 20px;
 }
 
+.strawpoll {
+  height: 100%;
+  flex-grow: 1;
+}
+
 .hidden {
   display: none;
 }
