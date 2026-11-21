@@ -187,6 +187,8 @@ a {
 }
 
 .strawpoll {
+  margin-top: 12px;
+  margin-bottom: 12px;
   height: 100%;
   flex-grow: 1;
 }
