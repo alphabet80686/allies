@@ -1,1 +1,184 @@
+body {
+  font-family: "Garmond", "Times New Roman", serif;
+  display: block;
+  text-align: justify;
+}
 
+.main {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  border: 3px outset #ff8800;
+  background-color: #ffeeaa;
+  color: #ff8800;
+  margin-bottom: 0px;
+  text-shadow: 3px 3px black;
+  letter-spacing: 1px;
+  font-size: 50px;
+  padding: 6px;
+}
+
+h2 {
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  border: 3px outset #ff8800;
+  background-color: #ff8800;
+  margin-bottom: 0px;
+  font-size: 36px;
+  padding: 2px;
+}
+
+h3 {
+  font-weight: bold;
+  margin-bottom: 0px;
+  font-size: 28px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+h5 {
+  font-style: italic;
+  font-size: 18px;
+}
+
+h6 {
+  font-style: italic;
+  font-size: 14px;
+}
+
+p {
+  font-size: 22px;
+}
+
+ol {
+  font-size: 22px;
+}
+
+ul {
+  font-size: 22px;
+}
+
+li {
+  margin-bottom: 12px;
+}
+
+img {
+  margin-right: 35px;
+  width: 400px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: left;
+  background-color: #ff8800;
+  color: #ffffff;
+}
+
+pre {
+  overflow: auto;
+}
+
+.special {
+  color: #000000;
+  font-style: normal;
+  font-size: 20px;
+  border: 3px outset #ffeeaa;
+  background-color: #ffeeaa;
+  margin-top: 6px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: justify;
+}
+
+#special {
+  padding: 20px 40px;
+  font-size: 22px;
+}
+
+#specialb {
+  display: block;
+}
+
+.navbar {
+  list-style-type: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  font-size: 22px;
+  padding: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: #0000ff;
+}
+
+#samepage {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.navbar > li {
+  display: inline-block;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  height: 26px;
+  color: #ffffff;
+  padding: 2px 4px;
+}
+
+.navbar > li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: #ffffff;
+}
+
+.nav {
+  background-color: #0000ff;
+  margin: 2px;
+}
+
+.samepage {
+  background-color: #ff0000;
+  margin: 2px;
+}
+
+.preview {
+  background-color: #00bb00;
+  margin: 2px;
+}
+
+#button a {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.handystory {
+  width: 125%;
+  transform: scale(0.8);
+  transform-origin: 0 0;
+  margin-top: 20px;
+}
+
+.strawpoll {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.hidden {
+  display: none;
+}
