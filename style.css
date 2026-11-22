@@ -198,7 +198,7 @@ a {
   flex-grow: 1;
 }
 
-.hidden {
+.hidden, .printonly {
   display: none;
 }
 
