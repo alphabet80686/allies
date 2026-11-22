@@ -184,6 +184,10 @@ a {
   color: #ffffff;
 }
 
+iframe {
+  display: block;
+}
+
 .handystory {
   width: 125%;
   transform: scale(0.8);
