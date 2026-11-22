@@ -105,6 +105,10 @@ pre {
   overflow: auto;
 }
 
+table {
+  width: 100%;
+}
+
 .special {
   color: #000000;
   font-style: normal;
