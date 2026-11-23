@@ -6,6 +6,10 @@ html, * {
   scrollbar-color: #ffcc88 #ff8800;
 }
 
+html, body {
+  overscroll-behavior: none;
+}
+
 body {
   background-color: #ffdd88;
   background-image: linear-gradient(#ffcc88, #ffee88);
@@ -305,8 +309,9 @@ iframe {
 }
 
 .handystory {
-  width: 125%;
-  transform: scale(0.8);
+  background-color: #ffd6ff;
+  width: 110%;
+  transform: scale(0.9);
   transform-origin: 0 0;
   margin-top: 20px;
   border: 2px solid #000000;
