@@ -135,6 +135,62 @@ a {
   color: #ffffff;
 }
 
+footer {
+  display: block;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 60px;
+  border-top: 1pt solid #000000;
+  border-bottom: none;
+  background: none;
+}
+
+footer td {
+  display: block;
+  width: 100%;
+  margin-right: 6pt;
+  vertical-align: top;
+}
+
+tbody.main {
+  display: block;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  margin: 0pt;
+  margin-top: 12pt;
+  padding-bottom: 0pt;
+}
+
+footer h1, footer h2 {
+  display: none;
+}
+
+footer p, footer ol, footer ul, footer li {
+  text-indent: 0in;
+  color: #000000;
+  text-shadow: none;
+  font-size: 12pt;
+}
+
+footer li {
+  margin-bottom: 4pt;
+  text-shadow: none;
+}
+
+footer a {
+  color: #000000;
+  text-shadow: none;
+}
+
+footer th > p {
+  font-size: 10pt;
+  font-weight: normal;
+  text-shadow: none;
+  letter-spacing: 1px;
+}
+
 .strawpoll {
   margin-top: 6pt;
   margin-bottom: 6pt;
@@ -142,10 +198,14 @@ a {
   flex-grow: 1;
 }
 
-.hidden, .potatonoshow, .printnoshow {
+.hidden, .potatonoshow, .printnoshow, .strawpoll {
   display: none;
 }
 
 .printonly {
   display: block;
+}
+
+#potext {
+  display: inline;
 }
