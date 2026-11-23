@@ -183,8 +183,8 @@ a {
   margin: 2px;
 }
 
-.preview {
-  background-color: #00bb00;
+.urgent {
+  background-color: #bb00bb;
   margin: 2px;
 }
 
@@ -224,8 +224,9 @@ header > .main {
   margin-right: auto;
 }
 
-header p {
+header p, header ol, header ul, header li {
   color: #ffffff;
+  font-size: 20px;
 }
 
 footer {
