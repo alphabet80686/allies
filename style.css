@@ -301,6 +301,7 @@ footer th > p {
 
 iframe {
   display: block;
+  border-radius: 10px;
 }
 
 .handystory {
