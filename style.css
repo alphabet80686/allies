@@ -13,8 +13,8 @@ body {
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
   display: block;
-  margin: 40px;
   text-align: left;
+  margin: 0px;
 }
 
 .main {
@@ -22,6 +22,7 @@ body {
   max-width: 1152px;
   padding-left: 20px;
   padding-right: 20px;
+  margin: 40px;
   margin-left: auto;
   margin-right: auto;
   scrollbar-color: #ffcc88 #ff8800;
@@ -186,6 +187,84 @@ a {
 #button a {
   text-decoration: underline;
   color: #ffffff;
+}
+
+footer {
+  display: block;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 60px;
+  border-top: 4px double #ffffff;
+  border-bottom: 4px double #ffffff;
+  background-color: #ff8800;
+}
+
+footer td {
+  display: inline-block;
+  width: 30%;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+tbody.main {
+  display: block;
+  max-width: 1152px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0px;
+  margin-top: 20px;
+  padding-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer h1 {
+  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: #ffffff;
+  text-align: left;
+  padding: 0px;
+}
+
+footer h2 {
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  border: none;
+  background: none;
+  font-size: 20px;
+  text-shadow: 2px 2px #000000;
+  letter-spacing: 8px;
+  padding: 0px;
+  margin: 0px;
+}
+
+footer p, footer ol, footer ul, footer li {
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px #000000;
+}
+
+footer li {
+  margin-bottom: 6px;
+}
+
+footer a {
+  color: #ffffff;
+  text-shadow: 1px 1px #0000ff;
+}
+
+footer th > p {
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 1px;
 }
 
 iframe {
