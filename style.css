@@ -376,6 +376,10 @@ iframe {
     margin-right: 20px;
   }
 
+  header p, header ol, header ul, header li {
+    font-size: 12px;
+  }
+
   footer {
     display: block;
     position: relative;
