@@ -135,6 +135,38 @@ a {
   color: #ffffff;
 }
 
+header {
+  margin-top: 0pt;
+  border-bottom: 1pt solid #000000;
+}
+
+header.critical {
+  background: none;
+}
+
+header.warning {
+  background: none;
+}
+
+header.good {
+  background: none;
+}
+
+header > .main {
+  display: block;
+  max-width: 100%;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  margin: 0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+}
+
+header p {
+  margin-top: 6pt;
+  margin-bottom: 6pt;
+}
+
 footer {
   display: block;
   position: relative;
@@ -194,8 +226,7 @@ footer th > p {
 .strawpoll {
   margin-top: 6pt;
   margin-bottom: 6pt;
-  height: 100%;
-  flex-grow: 1;
+  height: 3in;
 }
 
 .hidden, .potatonoshow, .printnoshow, .strawpoll {
