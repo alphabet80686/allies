@@ -195,6 +195,7 @@ a {
 
 header {
   margin-top: 0px;
+  width: 100%;
   border-bottom: 4px double #ffffff;
 }
 
@@ -216,13 +217,14 @@ header > .main {
   padding-left: 16px;
   padding-right: 16px;
   margin: 0px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   margin-left: auto;
   margin-right: auto;
 }
 
 header p {
-  margin-top: 12px;
-  margin-bottom: 12px;
+  color: #ffffff;
 }
 
 footer {
