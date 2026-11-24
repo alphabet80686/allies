@@ -414,3 +414,128 @@ iframe {
     display: none;
   }
 }
+
+/* high-as-a-kite contrast */
+
+@media (forced-colors: active) {
+  html {
+    border-right: none;
+  }
+
+  html, * {
+    scrollbar-color: auto;
+  }
+  
+  body {
+    background-image: none;
+    background-color: canvas;
+  }
+
+  .main {
+    scrollbar-color: auto;
+  }
+
+  h1 {
+    border-color: highlighttext;
+    background-color: highlight;
+    color: highlighttext;
+    text-shadow: none;
+  }
+
+  h2 {
+    color: canvastext;
+    border-color: canvastext;
+    background-color: canvas;
+  }
+
+  img {
+    border-color: canvastext;
+    background: none;
+    color: canvastext;
+  }
+
+  .special {
+    color: canvastext;
+    border-color: canvastext;
+    background-color: canvas;
+  }
+
+  a {
+    text-decoration: underline;
+    color: linktext;
+  }
+
+  #samepage {
+    color: linktext;
+  }
+
+  .navbar > li {
+    border-color: buttonborder;
+    color: buttontext;
+  }
+
+  .navbar a {
+    color: buttontext;
+  }
+
+  .nav {
+    background-color: buttonface;
+  }
+
+  .samepage {
+    background-color: buttonface;
+  }
+
+  .urgent {
+    background-color: buttonface;
+  }
+
+  #button a {
+    color: buttonface;
+  }
+
+  header, header.critical, header.warning, header.good, header.death {
+    background-color: highlight;
+    border-bottom-color: highlighttext;
+  }
+
+  header p, header ol, header ul, header li {
+    color: highlighttext;
+  }
+
+  header a, header > a {
+    color: linktext;
+  }
+
+  footer {
+    border-top-color: canvastext;
+    background-color: canvas;
+  }
+
+  footer h1 {
+    background: none;
+    border: none;
+    color: canvastext;
+  }
+
+  footer h2 {
+    border: none;
+    background: none;
+    text-shadow: none;
+  }
+
+  footer p, footer ol, footer ul, footer li {
+    color: canvastext;
+    text-shadow: none;
+  }
+
+  footer a {
+    color: linktext;
+    text-shadow: none;
+  }
+
+  .handystory {
+    background-color: accentcolor;
+    border-color: accentcolor;
+  }
+}
