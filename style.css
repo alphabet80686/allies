@@ -201,15 +201,19 @@ header {
 }
 
 header.critical {
-  background-color: #770000;
+  background-color: #ff3333;
 }
 
 header.warning {
-  background-color: #777700;
+  background-color: #ffbb33;
 }
 
 header.good {
-  background-color: #007700;
+  background-color: #3377bb;
+}
+
+header.death {
+  background-color: #770077;
 }
 
 header > .main {
