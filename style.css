@@ -205,7 +205,7 @@ header.critical {
 }
 
 header.warning {
-  background-color: #ffbb33;
+  background-color: #bb7733;
 }
 
 header.good {
@@ -233,7 +233,7 @@ header p, header ol, header ul, header li {
   font-size: 18px;
 }
 
-header a {
+header a, header > a {
   color: #ffffff;
   text-decoration: underline;
 }
