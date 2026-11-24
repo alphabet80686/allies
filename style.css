@@ -483,7 +483,12 @@ iframe {
   }
 
   .samepage {
-    background-color: buttonface;
+    background-color: canvas;
+    color: visitedtext;
+  }
+
+  .samepage a, samepage > a {
+    color: visitedtext;
   }
 
   .urgent {
