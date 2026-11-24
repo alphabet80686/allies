@@ -233,6 +233,11 @@ header p, header ol, header ul, header li {
   font-size: 18px;
 }
 
+header a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
 footer {
   display: block;
   position: relative;
