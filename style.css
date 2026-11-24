@@ -504,7 +504,7 @@ iframe {
   }
 
   header a, header > a {
-    color: linktext;
+    color: highlighttext;
   }
 
   footer {
