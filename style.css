@@ -150,6 +150,13 @@ a {
   color: #0000ff;
 }
 
+a > img, a img {
+  color: #0000ff;
+  border-color: #0000ff;
+  background-color: #ffffff;
+  padding: 2px;
+}
+
 #samepage {
   color: #ffffff;
   text-decoration: underline;
